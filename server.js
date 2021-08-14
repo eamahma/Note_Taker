@@ -24,7 +24,7 @@ app.get('/notes', (req, res) =>
 );
 
 // Wildcard route to direct users to a 404 page
-app.get('*', (req, res) => res.status(404).send('Path not found!'));
+app.get('*', (req, res) => res.status(404).send('Page not found!'));
 
 app.listen(PORT, () => 
     console.log(`App listening at http://localhost:${PORT}`)
