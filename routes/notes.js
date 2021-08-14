@@ -1,7 +1,6 @@
 const notes = require('express').Router();
 const fs = require('fs');
 const { v4 : uuidv4 } = require('uuid');
-const notes = require('express').Router();
 
 // read all notes
 notes.get('/', (req, res) => {
@@ -12,7 +11,7 @@ notes.get('/', (req, res) => {
 })
 
 // write new note to database
-notes.post('/, (req, res) => {
+notes.post('/', (req, res) => {
     // read content and assign to note 
     const note = req.body;
     // assign new id
