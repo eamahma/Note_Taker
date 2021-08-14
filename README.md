@@ -37,8 +37,8 @@ The following images show the web application's appearance and functionality:
 ![Note titled “Basic human needs” and content below with other notes listed on the left.](./Assets/notes.png)
 
 
-## Link to web page
-[Note Taker](https://github.com/eamahma/note_taker)
+## Link to live Heroku web page
+[Note Taker](https://nameless-ocean-12421.herokuapp.com/)
 
 ## Link to Github repository
 [Github page for Note Taker](https://github.com/eamahma/note_taker)
